@@ -13,9 +13,9 @@ body{
 .section{
   text-align: center;
 }
-#section1 {padding-top: 100px;height:100%;color: #fff; background-image: url("../img/SolidVault.jpg")}
-#section2 {padding-top:50px;height:100%;color: #fff; background-image: url("../img/SolidVault.jpg")}
-#section3 {padding-top:20px;height:300px;color: #fff;}
+#section1 {padding-top: 100px;height:100%;color: #fff; background: linear-gradient(to bottom left, #3A6073, #3A78CA)}
+#section2 {padding-top:50px;height:100%;color: #fff; background: linear-gradient(to bottom right, #00b09b, #96c93d)}
+#section3 {padding-top:20px;height:30%;color: #fff;}
 #section41 {padding-top:20px;height:500px;color: #fff; background-color: #00bcd4;}
 #section42 {padding-top:20px;height:500px;color: #fff; background-color: #009688;}
 
@@ -29,3 +29,14 @@ body{
 .card{
   float: left;
 }
+
+.manuel{
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease-out;
+}
+
+.manuel.fade-in{
+  opacity: 1;
+  transform: translateY(0px);
+} 
