@@ -1,0 +1,31 @@
+
+body, html {
+  position: relative; 
+  /* margin-top: 50px; */
+  height: 100%;
+}
+
+body{
+  padding-top: 0px; 
+
+}
+
+.section{
+  text-align: center;
+}
+#section1 {padding-top: 100px;height:100%;color: #fff; background-image: url("../img/SolidVault.jpg")}
+#section2 {padding-top:50px;height:100%;color: #fff; background-image: url("../img/SolidVault.jpg")}
+#section3 {padding-top:20px;height:300px;color: #fff;}
+#section41 {padding-top:20px;height:500px;color: #fff; background-color: #00bcd4;}
+#section42 {padding-top:20px;height:500px;color: #fff; background-color: #009688;}
+
+/* navbar-dark {
+  background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;
+} */
+
+.card{
+  float: left;
+}
