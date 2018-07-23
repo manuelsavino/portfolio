@@ -19,3 +19,4 @@ $(function () {
    .setClassToggle('#manuel', "fade-in")
    .addTo(controller);
 });
+
