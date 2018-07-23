@@ -13,13 +13,14 @@ body{
 .section{
   text-align: center;
   width: 100%; 
-  height:100%;
+  min-height:100%;
+  
 }
 
-#section1 {padding-top: 100px; color: #fff; background: linear-gradient(to bottom left, #3A6073, #3A78CA)}
+#section1 {padding-top: 100px; ; background: linear-gradient(to bottom left, #3A6073, #3A78CA)}
 #section2 {padding-top:50px; background: linear-gradient(to bottom right, #00b09b, #96c93d)}
-.divider {padding-top:20px; width: 100%; height:30%;color: #fff;}
-#section3 {padding-top: 100px; color: #fff; background: linear-gradient(to bottom left, #3A6073, #3A78CA)}
+.divider {padding-top:20px; width: 100%; height:22%;}
+#section3 {padding-top: 100px; background: linear-gradient(to bottom left, #3A6073, #3A78CA)}
 
 /* #section42 {padding-top:20px;height:500px;color: #fff; background-color: #009688;} */
 
