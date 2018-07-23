@@ -1,5 +1,5 @@
 $(function () {
-    $('#section3').parallax({ imageSrc: './assets/img/pattern.png' });
+    $('.divider').parallax({ imageSrc: './assets/img/pattern.png' });
 
     $("#myNavbar a").on('click', function (event) {
         event.preventDefault();
@@ -10,14 +10,11 @@ $(function () {
             window.location.hash = hash;
         });
     });
-
     // init controller
     var controller = new ScrollMagic.Controller();
 
     var scene = new ScrollMagic.Scene({
        triggerElement: '#manuel',
-       duration: 600,
-    //    triggerHook: 0.9
    })
    .setClassToggle('#manuel', "fade-in")
    .addTo(controller);
