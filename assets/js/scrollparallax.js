@@ -1,5 +1,5 @@
 $(function () {
-    $('.divider').parallax({ imageSrc: './assets/img/pattern.png' });
+    // $('.divider').parallax({ imageSrc: './assets/img/pattern.png' });
 
     $("#myNavbar a").on('click', function (event) {
         event.preventDefault();
