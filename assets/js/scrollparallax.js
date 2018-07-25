@@ -18,5 +18,11 @@ $(function () {
    })
    .setClassToggle('#manuel', "fade-in")
    .addTo(controller);
+
+    var scene = new ScrollMagic.Scene({
+        triggerElement: '#card',
+    })
+        .setClassToggle('#card', "fade-in")
+        .addTo(controller);
 });
 
